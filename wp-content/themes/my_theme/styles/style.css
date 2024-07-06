@@ -1,0 +1,29 @@
+/*Header styles*/
+.my-main-menu{
+    width: 90%;
+    margin: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+.my-main-menu .site-title{
+    display: inline-flex;
+}
+.my-navbar{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.my-navbar li{
+    list-style: none;
+    color: white;
+}
+.my-navbar li a{
+    color: white;
+}
